@@ -93,17 +93,4 @@ html {
   .sidebar-wrap .nav li .nav-link:hover {
     background-color: #ffa200;
   }
-  .sidebar-wrap .dropdown-wrap {
-    display: flex;
-    align-items: center;
-    color: #fff;
-    gap: 15px;
-    font-size: 16px;
-  }
-  .sidebar-wrap .dropdown-wrap .icon-wrap {
-    min-width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+ 
