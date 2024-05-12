@@ -2,6 +2,10 @@ html {
     height: 100%;
     width: 100%;
   }
+  ul {
+    background-color: #000;
+    z-index: 1000; 
+  }
   .sidebar-wrap {
     width: 60px;
     height: 100vh;
@@ -95,8 +99,9 @@ html {
   }
  
   p {
-    display: inline-block;
+  
        font-weight: bold;
+      margin-left: 50px;
    }
    p:hover {
      color: #ffa200;
@@ -108,4 +113,4 @@ html {
      text-align: center;
      font-size: 50px;
    }
-  
+ 
