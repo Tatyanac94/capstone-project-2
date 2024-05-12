@@ -2,10 +2,19 @@ html {
     height: 100%;
     width: 100%;
   }
+
+  body{
+    background-image: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHhoZjV3ZGJ0azVwb3A2NWVrdmk0bzZqbDg4ZGY5bGcxeDF0N3B5ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wpVM8uZMwThC0/giphy.gif');
+    background-size: cover;
+    margin-left: 40px;
+    height: 100vh;
+}
+
   ul {
     background-color: #000;
     z-index: 1000; 
   }
+
   .sidebar-wrap {
     width: 60px;
     height: 100vh;
@@ -99,8 +108,7 @@ html {
   }
  
   p {
-  
-       font-weight: bold;
+      font-weight: bold;
       margin-left: 50px;
    }
    p:hover {
@@ -112,5 +120,6 @@ html {
      width: 100%;
      text-align: center;
      font-size: 50px;
+     color:#fff
    }
  
