@@ -3,8 +3,8 @@ html {
     width: 100%;
   }
 
-  body{
-    background-image: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHhoZjV3ZGJ0azVwb3A2NWVrdmk0bzZqbDg4ZGY5bGcxeDF0N3B5ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wpVM8uZMwThC0/giphy.gif');
+  body {
+    background-image: url('https://media.giphy.com/media/wpVM8uZMwThC0/giphy.gif');
     background-size: cover;
     margin-left: 40px;
     height: 100vh;
@@ -116,7 +116,7 @@ html {
    }
    #msgDiv {
      position: absolute;
-     top: 50%;
+     top: 35%;
      width: 100%;
      text-align: center;
      font-size: 50px;
