@@ -94,3 +94,18 @@ html {
     background-color: #ffa200;
   }
  
+  p {
+    display: inline-block;
+       font-weight: bold;
+   }
+   p:hover {
+     color: #ffa200;
+   }
+   #msgDiv {
+     position: absolute;
+     top: 50%;
+     width: 100%;
+     text-align: center;
+     font-size: 50px;
+   }
+  
