@@ -113,11 +113,11 @@ html {
   width: 100%;
   text-align: right;
   font-size: 30px;
-  color:#000000
+  color:#000000;
   }
 
   #Results {
-border-radius: 50px;
+
 
 color:white;
 
@@ -125,11 +125,9 @@ color:white;
 
   #searchResults {
     border-radius: 50px;
-    
+    background: #000;
     color:white;
     
   }
 
-  col {
-    background-color: #000;
-  }
+  
