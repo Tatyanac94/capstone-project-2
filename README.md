@@ -1,7 +1,7 @@
 # CapstoneProject2
-Drinks On Tati
+## Drinks On Tati
 
-Authors: Tatyana Cuttino
+Author: Tatyana Cuttino
 
 [Live Site](https://tatyanac94.github.io/capstone-project-2/)
 
