@@ -2,7 +2,6 @@ document.getElementById('searchButton').addEventListener('click', search);
               
               function search() {
                   const searchTerm = encodeURIComponent(document.getElementById('searchInput').value);
-                //   const ingredients = encodeURIComponent(document.getElementById('ingredientsInput').value);
                   let baseURL = "https://api.api-ninjas.com/v1/cocktail";
                   let myKey = "Fvgwx0GoSoc8O88Lryedl5EJyfpvRtdh9Zlbjr1k";
                   let url = `${baseURL}?name=${searchTerm}&X-Api-Key=${myKey}`;
@@ -27,8 +26,7 @@ document.getElementById('searchButton').addEventListener('click', search);
                   searchResultsDiv.innerHTML = ""; 
                   data.forEach(recipe => {
                       const recipeDiv = document.createElement('div');
-                      recipeDiv.textContent = `Name: ${recipe.name} Ingredients: ${recipe.ingredients}
-                      Instructions:${recipe.instructions}`;
+                      recipeDiv.innerHTML = `<u>Name:</u> ${recipe.name}<br><u>Ingredients:</u> ${recipe.ingredients}<br><u>Instructions:</u> ${recipe.instructions}<br><br>`; ;
                       searchResultsDiv.appendChild(recipeDiv);
                   });
               };
